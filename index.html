@@ -5,9 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        background-color: #D3F1DF;
+    }
+    .main-container{
+        height: 250px;
+        width: 450px;
+        border: 2px dashed white;
+        padding: 10px;
+        margin: 30px auto;
+        background-color: #525B44;
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 40px;
+        color: #D3F1DF;
+    }
+    .placeholder{
+        margin-left:75px ;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .text{
+        width: 240px;
+        margin-left: 75px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        background-color: #5A6C57;
+        color: #fff;
+       
+    }
+    .btn{
+        border: none;
+        font-size: 15px;
+        padding: 3px;
+        border-radius: 3px;
+        background-color: #85A98F;
+        color: #fff;
+    }
+</style>
 <body>
-    <h1>Word Translator</h1>
-    <input type="text" placeholder="Enter a word"/>
-    <button type="button">Submit</button>
+    <div class="main-container">
+    <h1 class="heading"> Word Translator</h1>
+    <p class="placeholder">Enter a Word :</p>
+    <input type="text"  class="text"/>
+    <button type="button" class="btn">Submit</button>
+</div>
 </body>
 </html>
